@@ -7,7 +7,9 @@ Valid examples, should return true:
 isDigit("3")
 isDigit("  3  ")
 isDigit("-3.23")
-should return false:
+
+
+These should return false:
 
 isDigit("3-4")
 isDigit("  3   5")
